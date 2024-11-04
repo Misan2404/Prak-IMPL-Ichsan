@@ -1,14 +1,5 @@
-class Motorcycle implements VehicleInterface {
-    // Can be implemented
-    @Override
-    public void drive() {
+class Motorcycle : VehicleInterface {
+    override fun drive() {}
+    override fun stop() {}
+    override fun refuel() {}
     }
-    @Override
-    public void stop() {
-    }
-    @Override
-    public void refuel() {
-    }
-    // Can not be implemented
-}
-s
